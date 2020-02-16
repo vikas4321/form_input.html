@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+  <style>
+  form{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    text-align:center;
+  }
+  </style>
+</head>
+<body>
+
+<h2 style= text-align:center>Text Input</h2 style=>
+
+<form action="action_page.php"method="post" target="_blank"class="form-container">
+   <fieldset>
+       <legend> vicky info</legend>
+    firstname1:<br>
+  <input type="text" name="firstname1" value="vicky">
+  <br>
+  Last name2:<br>
+  <input type="text"value="patel"><br>
+  
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other  
+    <br><select name="cars" size="4" multiple>
+        <option value="ferari">ferari</option>
+        <option value="Audi"selected>audi</option>
+        <option value="bmw">bmw</option>
+        <option value="jaguar">jaguar</option>
+      </select>
+      <br><br>
+      <textarea name="message" rows="10" cols="30">The  vikas patel is studying in iiit kota 
+        from cse branchcat was playing in the garden.</textarea>
+      <br>
+      <button type="button" onclick="alert('hello world vickyyyyyyy')">click me</button>
+      <input type=""name="" placeholder="vicky12344547@gmail.com">
+      <input type="number">
+      <input type="email">
+      
+    
+      
+    <input type="submit" value="submit">
+</fieldset>
+</form>
+<form action="action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of a text input field is 20 characters.</p>
+<h1>vikas patel</h1>
+
+</body>
+</html>
